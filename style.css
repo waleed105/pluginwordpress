@@ -1,0 +1,210 @@
+
+/*
+Theme Name: random
+Theme URI: https:/batoota.pk
+Author: Waleed
+Author URI: http://www.random/home.com
+Description: random Site
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/* *************************************header*************************************** */
+.custom--nav--top {
+  padding: 10px 0px;
+  background: #fff;
+  z-index: 999;
+}
+
+.easy-logo {
+  width: 160px;
+}
+
+.toggler-icon-res {
+  display: none;
+}
+
+.mob-hidden {
+  display: block;
+}
+
+.serach--bar {
+  background: #ccc;
+  padding: 6px 10px;
+  border-radius: 50%;
+  color: #eee;
+}
+
+.mobo-show {
+  display: none;
+}
+.nav--text {
+  color: #00000096;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.custom--nav {
+  width: 100%;
+  justify-content: center;
+  padding: 16px 10px;
+}
+
+.custom--side {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.request--button {
+  font-size: 14px;
+  text-align: center;
+  background: #00c9ff96;
+  background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+  background: linear-gradient(to right, #92fe9d94, #00c9ffe6);
+  color: #fff;
+  padding: 14px 40px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.request--button:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #FC5C7D;  
+  background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D); 
+  background: linear-gradient(to right, #6A82FB, #FC5C7D); 
+}
+.nav-text--active:after {
+  content: "";
+  border-bottom: 5px solid #2cbeb8;
+  width: 100%;
+  opacity: 100%;
+  margin: 0px auto;
+  display: table;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+}
+
+.nav--bottom:after {
+  content: "";
+  border-bottom: 5px solid #2cbeb8;
+  width: 0;
+  opacity: 0;
+  margin: 0px auto;
+  display: table;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+}
+.nav--bottom:hover::after {
+  width: 100%;
+  opacity: 1;
+  transition: width 0.3s;
+}
+
+/* *************************************header end*************************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******************************footer********************************** */
+.main-footer {
+  background: hsl(233, 26%, 24%);
+  z-index: 3;
+  line-height: 1.7;
+  padding-top: 28px;
+  width: 100%;
+  padding-bottom: 25px;
+}
+.footer-links {
+  color: #ccc;
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 6px;
+  margin: 6px 0 6px 0;
+}
+.links a {
+  color: #fdfdfc91;
+}
+.contact-link {
+  margin-bottom: 10px;
+}
+
+.footer-img {
+    filter: invert(1);
+}
+
+/* my */
+.center-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer--icons {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer--copyright {
+  margin-top: 30px;
+  color: #fdfdfc91;
+}
+.request--button--footer {
+  font-size: 14px;
+  text-align: center;
+  background: #00c9ff96;
+  background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+  background: linear-gradient(to right, #92fe9d94, #00c9ffe6);
+  color: #fff;
+  padding: 14px 40px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.request--button--footer:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #FC5C7D;  
+background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D); 
+background: linear-gradient(to right, #6A82FB, #FC5C7D); 
+
+}
+.right-content--footer {
+  margin-top: 15px;
+}
+
+.footer-logo {
+  margin-bottom: 25px;
+}
+/* ******************************footer end********************************** */
